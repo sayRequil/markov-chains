@@ -14,7 +14,7 @@ class Chain:
     
   def GetChain(join):
     chain = random.sample(data, 2)
-    return join.join(*chain)
+    return join.join(chain)
     
 class Waiter:
   def __init__(period):
