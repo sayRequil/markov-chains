@@ -4,7 +4,7 @@ data = []
 
 class Chain:
   def __init__():
-    print("Made new Markov Chain.")
+    return "Chain With Twig."
     
   def AddWordToChain(w):
     data.append(w)
